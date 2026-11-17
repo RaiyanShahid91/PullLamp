@@ -1,0 +1,24 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What you saw
+      description: What you expected and what you saw (and the LampStyle you used).
+  - type: input
+    id: version
+    attributes:
+      label: PullLamp version
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
